@@ -22,7 +22,7 @@ var shapes = [
       1, 1, 1 ]
 ];
 var colors = [
-    'blueviolet', 'orange', 'blue', 'yellow', 'pink', 'lime', 'purple'
+    'cyan', 'orange', 'blue', 'yellow', 'pink', 'lime', 'blueviolet'
 ];
 
 // creates a new 4x4 shape in global variable 'current'
@@ -199,7 +199,7 @@ function newGame() {
     init();
     newShape();
     lose = false;
-    interval = setInterval( tick, 400 );
+    interval = setInterval( tick, 1000 );
 }
 
 function clearAllIntervals(){
